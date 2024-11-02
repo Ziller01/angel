@@ -1,0 +1,187 @@
+* {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e1e1e;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #373737
+}
+
+.scroll-margin {
+  scroll-margin-top: 80px;
+}
+
+
+/* -------------------------------------------------------------- */
+.shadow-t-sm{ box-shadow: 0 -1px 2px 0 rgba(0, 0, 0, 0.05)}
+.shadow-t-md{ box-shadow: 0 -4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)}
+.shadow-t-lg{ box-shadow: 0 -10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)}
+.shadow-t-xl{ box-shadow: 0 -20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)}
+.shadow-t-2xl{ box-shadow: 0 -25px 50px -12px rgba(0, 0, 0, 0.25)}
+.shadow-t-3xl{ box-shadow: 0 -35px 60px -15px rgba(0, 0, 0, 0.3)}
+.shadow-b-sm{ box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05)}
+.shadow-b-md{ box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 -2px 4px -1px rgba(0, 0, 0, 0.06)}
+.shadow-b-lg{ box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 -4px 6px -2px rgba(0, 0, 0, 0.05)}
+.shadow-b-xl{ box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 -10px 10px -5px rgba(0, 0, 0, 0.04)}
+.shadow-b-2xl{ box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25)}
+.shadow-b-3xl{ box-shadow: 0 35px 60px -15px rgba(0, 0, 0, 0.3)}
+.shadow-l-sm{ box-shadow: -1px 0 2px 0 rgba(0, 0, 0, 0.05)}
+.shadow-l-md{ box-shadow: -4px 0 6px -1px rgba(0, 0, 0, 0.1), 2px 0 4px -1px rgba(0, 0, 0, 0.06)}
+.shadow-l-lg{ box-shadow: -10px 0 15px -3px rgba(0, 0, 0, 0.1), 4px 0 6px -2px rgba(0, 0, 0, 0.05)}
+.shadow-l-xl{ box-shadow: -20px 0 25px -5px rgba(0, 0, 0, 0.1), 10px 0 10px -5px rgba(0, 0, 0, 0.04)}
+.shadow-l-2xl{ box-shadow: -25px 0 50px -12px rgba(0, 0, 0, 0.25)}
+.shadow-l-3xl{ box-shadow: -35px 0 60px -15px rgba(0, 0, 0, 0.3)}
+.shadow-r-sm{ box-shadow: 1px 0 2px 0 rgba(0, 0, 0, 0.05)}
+.shadow-r-md{ box-shadow: 4px 0 6px -1px rgba(0, 0, 0, 0.1), -2px 0 4px -1px rgba(0, 0, 0, 0.06)}
+.shadow-r-lg{ box-shadow: 10px 0 15px -3px rgba(0, 0, 0, 0.1), -4px 0 6px -2px rgba(0, 0, 0, 0.05)}
+.shadow-r-xl{ box-shadow: 20px 0 25px -5px rgba(0, 0, 0, 0.1), -10px 0 10px -5px rgba(0, 0, 0, 0.04)}
+.shadow-r-2xl{ box-shadow: 25px 0 50px -12px rgba(0, 0, 0, 0.25)}
+.shadow-r-3xl{ box-shadow: 35px 0 60px -15px rgba(0, 0, 0, 0.3)}
+.shadow-all-sm{ box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.05)}
+.shadow-all-md{ box-shadow: 0 0 6px -1px rgba(0, 0, 0, 0.1), 0 0 4px -1px rgba(0, 0, 0, 0.06)}
+.shadow-all-lg{ box-shadow: 0 0 15px -3px rgba(0, 0, 0, 0.1), 0 0 6px -2px rgba(0, 0, 0, 0.05)}
+.shadow-all-xl{ box-shadow: 0 0 25px -5px rgba(0, 0, 0, 0.1), 0 0 10px -5px rgba(0, 0, 0, 0.04)}
+.shadow-all-2xl{ box-shadow: 0 0 50px -12px rgba(0, 0, 0, 0.25)}
+.shadow-all-3xl{ box-shadow: 0 0 60px -15px rgba(0, 0, 0, 0.3)}
+/* -------------------------------------------------------------- */
+.shadow-i-b-sm{ box-shadow: inset 0 -1px 2px 0 rgba(0, 0, 0, 0.05)}
+.shadow-i-b-md{ box-shadow: inset 0 -4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)}
+.shadow-i-b-lg{ box-shadow: inset 0 -10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)}
+.shadow-i-b-xl{ box-shadow: inset 0 -20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)}
+.shadow-i-b-2xl{ box-shadow: inset 0 -25px 50px -12px rgba(0, 0, 0, 0.25)}
+.shadow-i-b-3xl{ box-shadow: inset 0 -35px 60px -15px rgba(0, 0, 0, 0.3)}
+.shadow-i-t-sm{ box-shadow: inset 0 1px 2px 0 rgba(0, 0, 0, 0.05)}
+.shadow-i-t-md{ box-shadow: inset 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 -2px 4px -1px rgba(0, 0, 0, 0.06)}
+.shadow-i-t-lg{ box-shadow: inset 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 -4px 6px -2px rgba(0, 0, 0, 0.05)}
+.shadow-i-t-xl{ box-shadow: inset 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 -10px 10px -5px rgba(0, 0, 0, 0.04)}
+.shadow-i-t-2xl{ box-shadow: inset 0 25px 50px -12px rgba(0, 0, 0, 0.25)}
+.shadow-i-t-3xl{ box-shadow: inset 0 35px 60px -15px rgba(0, 0, 0, 0.3)}
+.shadow-i-r-sm{ box-shadow: inset -1px 0 2px 0 rgba(0, 0, 0, 0.05)}
+.shadow-i-r-md{ box-shadow: inset -4px 0 6px -1px rgba(0, 0, 0, 0.1), 2px 0 4px -1px rgba(0, 0, 0, 0.06)}
+.shadow-i-r-lg{ box-shadow: inset -10px 0 15px -3px rgba(0, 0, 0, 0.1), 4px 0 6px -2px rgba(0, 0, 0, 0.05)}
+.shadow-i-r-xl{ box-shadow: inset -20px 0 25px -5px rgba(0, 0, 0, 0.1), 10px 0 10px -5px rgba(0, 0, 0, 0.04)}
+.shadow-i-r-2xl{ box-shadow: inset -25px 0 50px -12px rgba(0, 0, 0, 0.25)}
+.shadow-i-r-3xl{ box-shadow: inset -35px 0 60px -15px rgba(0, 0, 0, 0.3)}
+.shadow-i-l-sm{ box-shadow: inset 1px 0 2px 0 rgba(0, 0, 0, 0.05)}
+.shadow-i-l-md{ box-shadow: inset 4px 0 6px -1px rgba(0, 0, 0, 0.1), -2px 0 4px -1px rgba(0, 0, 0, 0.06)}
+.shadow-i-l-lg{ box-shadow: inset 10px 0 15px -3px rgba(0, 0, 0, 0.1), -4px 0 6px -2px rgba(0, 0, 0, 0.05)}
+.shadow-i-l-xl{ box-shadow: inset 20px 0 25px -5px rgba(0, 0, 0, 0.1), -10px 0 10px -5px rgba(0, 0, 0, 0.04)}
+.shadow-i-l-2xl{ box-shadow: inset 25px 0 50px -12px rgba(0, 0, 0, 0.25)}
+.shadow-i-l-3xl{ box-shadow: inset 35px 0 60px -15px rgba(0, 0, 0, 0.3)}
+.shadow-i-all-sm{ box-shadow: inset 0 0 2px 0 rgba(0, 0, 0, 0.05)}
+.shadow-i-all-md{ box-shadow: inset 0 0 6px -1px rgba(0, 0, 0, 0.1), 0 0 4px -1px rgba(0, 0, 0, 0.06)}
+.shadow-i-all-lg{ box-shadow: inset 0 0 15px -3px rgba(0, 0, 0, 0.1), 0 0 6px -2px rgba(0, 0, 0, 0.05)}
+.shadow-i-all-xl{ box-shadow: inset 0 0 25px -5px rgba(0, 0, 0, 0.1), 0 0 10px -5px rgba(0, 0, 0, 0.04)}
+.shadow-i-all-2xl{ box-shadow: inset 0 0 50px -12px rgba(0, 0, 0, 0.25)}
+.shadow-i-all-3xl{ box-shadow: inset 0 0 60px -15px rgba(0, 0, 0, 0.3)}
+/* -------------------------------------------------------------- */
+
+.fonts-ubuntu-light {
+  font-family: "Ubuntu", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.fonts-ubuntu-regular {
+  font-family: "Ubuntu", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fonts-ubuntu-medium {
+  font-family: "Ubuntu", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.fonts-ubuntu-bold {
+  font-family: "Ubuntu", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.fonts-ubuntu-light-italic {
+  font-family: "Ubuntu", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.fonts-ubuntu-regular-italic {
+  font-family: "Ubuntu", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.fonts-ubuntu-medium-italic {
+  font-family: "Ubuntu", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.fonts-ubuntu-bold-italic {
+  font-family: "Ubuntu", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.fonts-rubik-wet-paint-regular {
+  font-family: "Rubik Wet Paint", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fonts-rubik-500 {
+  font-family: "Rubik", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.fonts-roboto-mono-500 {
+  font-family: "Roboto Mono", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.fonts-quicksand-500 {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.fonts-playwrite-gb-s-500 {
+  font-family: "Playwrite GB S", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.fonts-oxanium-500 {
+  font-family: "Oxanium", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.fonts-bebas-neue-regular {
+  font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* -------------------------------------------------------------- */
