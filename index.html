@@ -3,16 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
+    <meta name="description" content="Discover top-rated games, gaming guides, and reviews on Angel Games Store. Your ultimate gaming destination." />
+    <meta name="keywords" content="online games, gaming store, game reviews, gaming news, game guides, angel, angel gaming, angel store" />
+
     <meta property="og:title" content="Angel Store" />
     <meta property="og:description" content="احصل علي العابك المفضلة وغيرها بارخص الاسعار" />
-    <meta property="og:image" content="https://angelgames.store/imgs/logo.webp" />
+    <meta property="og:image" content="./imgs/logo.webp" />
     <meta property="og:url" content="https://angelgames.store" />
     <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Angel Store">
-    <meta name="twitter:description" content="احصل علي العابك المفضلة وغيرها بارخص الاسعار">
-    <meta name="twitter:image" content="./imgs/logo.webp">
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Angel Store" />
+    <meta name="twitter:description" content="احصل علي العابك المفضلة وغيرها بارخص الاسعار" />
+    <meta name="twitter:image" content="./imgs/logo.webp" />
 
     <title>Angel Store</title>
     <script src="./js/tailwind.js"></script>
@@ -28,77 +31,77 @@
 
   <body class="bg-black text-white fonts-oxanium-500 overflow-x-hidden flex flex-col items-center justify-center">
     <div id="Container" class="w-full max-w-[1440px] flex flex-col items-center justify-center gap-10">
-      <nav class="w-full sticky top-0 z-20 flex justify-between items-center gap-5 p-3 px-5 bg-black/50 backdrop-blur-md rounded-b-lg">
-        <img src="./imgs/logo.webp" alt="logo" class="h-5 rounded-full">
-        <div class="flex justify-center items-center gap-5">
-          <a href="#" class="font-bold">Home</a>
-          <a href="#services" class="text-white">Services</a>
-        </div>
-        <div class="flex justify-center items-center gap-5 text-xl">
-          <a href="https://discord.gg/cc3" class="bi bi-discord"></a>
-          <a href="#" class="bi bi-facebook"></a>
-        </div>
-      </nav>
-      <!--!==================================================================================================================================-->
-      <header id="home" class="w-full h-[460px] relative flex justify-center items-center rounded-lg overflow-hidden">
+      <header id="home" class="w-full h-[460px] mt-24 relative flex justify-center items-center rounded-lg overflow-hidden">
         <img src="./imgs/banner.gif" alt="banner" class="w-full h-full object-cover rounded-lg shadow-i-all-3xl" />
       </header>
       <!--!==================================================================================================================================-->
+      <nav class="w-full fixed top-0 z-20 flex justify-between items-center gap-5 p-3 px-5 bg-black/50 backdrop-blur-md rounded-b-lg">
+        <img src="./imgs/logo.webp" alt="logo" class="h-5 rounded-full" />
+        <ul class="flex justify-center items-center gap-5">
+          <li><a href="#" class="font-bold">Home</a></li>
+          <li><a href="#services" class="text-white">Services</a></li>
+        </ul>
+        <ul class="flex justify-center items-center gap-5 text-xl">
+          <li><a href="https://discord.gg/cc3" class="bi bi-discord"></a></li>
+          <li><a href="#" class="bi bi-facebook"></a></li>
+        </ul>
+      </nav>
+      <!--!==================================================================================================================================-->
       <section id="services" class="w-full relative flex flex-col justify-center items-center gap-10 scroll-margin">
         <div class="relative text-4xl">
-          <h1 class="uppercase font-bold">Services</h1>
+          <h2 class="uppercase font-bold">Services</h2>
           <span class="absolute bottom-0 w-full h-px bg-gradient-to-r from-transparent via-white to-transparent"></span>
         </div>
-        <div id="card-group" class="w-full relative flex flex-wrap justify-center items-center gap-5 rounded-lg">
+        <article id="card-group" class="w-full relative flex flex-wrap justify-center items-center gap-5 rounded-lg">
           <div id="card" class="w-64 h-64 relative bg-red-600/10 backdrop-blur-md rounded-lg flex flex-col justify-start items-center gap-3 overflow-hidden">
             <img src="./imgs/games.png" alt="img" class="w-full h-full rounded-lg object-cover" />
             <div class="w-full h-full bg-black/20 backdrop-blur-sm absolute top-0 flex justify-center items-center p-5 opacity-0 hover:opacity-100 duration-300">
-              <a href="./pages/games.html" class="w-full p-2 bg-gradient-to-tr from-yellow-600 via-yellow-400 to-yellow-600 text-center cursor-pointer text-black uppercase font-bold text-2xl rounded-lg drop-shadow-lg">Games</a>
+              <a href="/pages/games.html" class="w-full p-2 bg-gradient-to-tr from-yellow-600 via-yellow-400 to-yellow-600 text-center cursor-pointer text-black uppercase font-bold text-2xl rounded-lg drop-shadow-lg">Games</a>
             </div>
           </div>
           <div id="card" class="w-64 h-64 relative bg-red-600/10 backdrop-blur-md rounded-lg flex flex-col justify-start items-center gap-3 overflow-hidden">
             <img src="./imgs/game.png" alt="img" class="w-full h-full rounded-lg object-cover" />
             <div class="w-full h-full bg-black/20 backdrop-blur-sm absolute top-0 flex justify-center items-center p-5 opacity-0 hover:opacity-100 duration-300">
-              <a href="./pages/valorant.html" class="w-full p-2 bg-red-600 text-center cursor-pointer text-black uppercase font-bold text-2xl rounded-lg drop-shadow-lg">Valorant Points</a>
+              <a href="/pages/valorant.html" class="w-full p-2 bg-red-600 text-center cursor-pointer text-black uppercase font-bold text-2xl rounded-lg drop-shadow-lg">Valorant Points</a>
             </div>
           </div>
           <div id="card" class="w-64 h-64 relative bg-sky-600/10 backdrop-blur-md rounded-lg flex flex-col justify-start items-center gap-3 overflow-hidden">
             <img src="./imgs/steam.webp" alt="img" class="w-full h-full rounded-lg object-cover" />
             <div class="w-full h-full bg-black/20 backdrop-blur-sm absolute top-0 flex justify-center items-center p-5 opacity-0 hover:opacity-100 duration-300">
-              <a href="./pages/steam.html" class="w-full p-2 bg-sky-600 text-center cursor-pointer text-black uppercase font-bold text-2xl rounded-lg drop-shadow-lg">Steam Gift Cards & Points</a>
+              <a href="/pages/steam.html" class="w-full p-2 bg-sky-600 text-center cursor-pointer text-black uppercase font-bold text-2xl rounded-lg drop-shadow-lg">Steam Gift Cards & Points</a>
             </div>
           </div>
           <div id="card" class="w-64 h-64 relative bg-blue-600/10 backdrop-blur-md rounded-lg flex flex-col justify-start items-center gap-3 overflow-hidden">
             <img src="./imgs/win.webp" alt="img" class="w-full h-full rounded-lg object-cover" />
             <div class="w-full h-full bg-black/20 backdrop-blur-sm absolute top-0 flex justify-center items-center p-5 opacity-0 hover:opacity-100 duration-300">
-              <a href="./pages/win.html" class="w-full p-2 bg-blue-600 text-center cursor-pointer text-black uppercase font-bold text-2xl rounded-lg drop-shadow-lg">Windows Activate Codes</a>
+              <a href="/pages/win.html" class="w-full p-2 bg-blue-600 text-center cursor-pointer text-black uppercase font-bold text-2xl rounded-lg drop-shadow-lg">Windows Activate Codes</a>
             </div>
           </div>
           <div id="card" class="w-64 h-64 relative bg-purple-600/10 backdrop-blur-md rounded-lg flex flex-col justify-start items-center gap-3 overflow-hidden">
             <img src="./imgs/nitro.webp" alt="img" class="w-full h-full rounded-lg object-cover" />
             <div class="w-full h-full bg-black/20 backdrop-blur-sm absolute top-0 flex justify-center items-center p-5 opacity-0 hover:opacity-100 duration-300">
-              <a href="./pages/nitro.html" class="w-full p-2 bg-purple-600 text-center cursor-pointer text-black uppercase font-bold text-2xl rounded-lg drop-shadow-lg">Nitro</a>
+              <a href="/pages/nitro.html" class="w-full p-2 bg-purple-600 text-center cursor-pointer text-black uppercase font-bold text-2xl rounded-lg drop-shadow-lg">Nitro</a>
             </div>
           </div>
           <div id="card" class="w-64 h-64 relative bg-yellow-600/10 backdrop-blur-md rounded-lg flex flex-col justify-start items-center gap-3 overflow-hidden">
             <img src="./imgs/pubg.png" alt="img" class="w-full h-full rounded-lg object-cover" />
             <div class="w-full h-full bg-black/20 backdrop-blur-sm absolute top-0 flex justify-center items-center p-5 opacity-0 hover:opacity-100 duration-300">
-              <a href="./pages/pubg.html" class="w-full p-2 bg-yellow-600 text-center cursor-pointer text-black uppercase font-bold text-2xl rounded-lg drop-shadow-lg">PUBG UC</a>
+              <a href="/pages/pubg.html" class="w-full p-2 bg-yellow-600 text-center cursor-pointer text-black uppercase font-bold text-2xl rounded-lg drop-shadow-lg">PUBG UC</a>
             </div>
           </div>
           <div id="card" class="w-64 h-64 relative bg-white/10 backdrop-blur-md rounded-lg flex flex-col justify-start items-center gap-3 overflow-hidden">
             <img src="./imgs/roblox.png" alt="img" class="w-full h-full rounded-lg object-cover" />
             <div class="w-full h-full bg-black/20 backdrop-blur-sm absolute top-0 flex justify-center items-center p-5 opacity-0 hover:opacity-100 duration-300">
-              <a href="./pages/roblox.html" class="w-full p-2 bg-white text-center cursor-pointer text-black uppercase font-bold text-2xl rounded-lg drop-shadow-lg">Roblox RBL</a>
+              <a href="/pages/roblox.html" class="w-full p-2 bg-white text-center cursor-pointer text-black uppercase font-bold text-2xl rounded-lg drop-shadow-lg">Roblox RBL</a>
             </div>
           </div>
-
-        </div>
+        </article>
       </section>
       <!--!==================================================================================================================================-->
-      <footer class="w-full p-2 relative flex justify-center items-center font-bold">
+      <footer class="w-full p-2 relative flex flex-col justify-center items-center font-bold">
         <!-- <p class="bg-gradient-to-r from-red-600 via-purble-600 to-blue-600 text-transparent bg-clip-text">Made by ZILLER</p> -->
-        <p class="">Made by <a href="https://ahmedtalaat.net" target="_blank">ZILLER</a></p>
+        <p>&copy; 2024 Angel Games Store. All rights reserved.</p>
+        <a href="https://ahmedtalaat.net" target="_blank">Made by Ahmed Talaat [Ziller]</a>
       </footer>
     </div>
 
